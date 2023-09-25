@@ -1,0 +1,12 @@
+/home/klimkin_sv/Рабочий стол/Lab2/Lab2.Library/bin/Debug/net7.0/Lab2.Library.deps.json
+/home/klimkin_sv/Рабочий стол/Lab2/Lab2.Library/bin/Debug/net7.0/Lab2.Library.dll
+/home/klimkin_sv/Рабочий стол/Lab2/Lab2.Library/bin/Debug/net7.0/Lab2.Library.pdb
+/home/klimkin_sv/Рабочий стол/Lab2/Lab2.Library/obj/Debug/net7.0/Lab2.Library.csproj.AssemblyReference.cache
+/home/klimkin_sv/Рабочий стол/Lab2/Lab2.Library/obj/Debug/net7.0/Lab2.Library.GeneratedMSBuildEditorConfig.editorconfig
+/home/klimkin_sv/Рабочий стол/Lab2/Lab2.Library/obj/Debug/net7.0/Lab2.Library.AssemblyInfoInputs.cache
+/home/klimkin_sv/Рабочий стол/Lab2/Lab2.Library/obj/Debug/net7.0/Lab2.Library.AssemblyInfo.cs
+/home/klimkin_sv/Рабочий стол/Lab2/Lab2.Library/obj/Debug/net7.0/Lab2.Library.csproj.CoreCompileInputs.cache
+/home/klimkin_sv/Рабочий стол/Lab2/Lab2.Library/obj/Debug/net7.0/Lab2.Library.dll
+/home/klimkin_sv/Рабочий стол/Lab2/Lab2.Library/obj/Debug/net7.0/refint/Lab2.Library.dll
+/home/klimkin_sv/Рабочий стол/Lab2/Lab2.Library/obj/Debug/net7.0/Lab2.Library.pdb
+/home/klimkin_sv/Рабочий стол/Lab2/Lab2.Library/obj/Debug/net7.0/ref/Lab2.Library.dll
