@@ -1,0 +1,34 @@
+<Project>
+
+	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<OriginalUserName>Klimkin Stepan</OriginalUserName>
+
+		<ValidationMessageText1>$(MSBuildProjectName) -&gt; Current project parameters -&gt; $([System.Environment]::UserName) -&gt; $(Configuration)</ValidationMessageText1>		
+		<ValidationMessageText2>$(MSBuildProjectName) -&gt; Original project parameters -&gt; $(OriginalUserName) -&gt; $(Configuration)</ValidationMessageText2>		
+	</PropertyGroup>
+
+	<Choose>
+		<When Condition="'$([System.Environment]::UserName)'=='$(OriginalUserName)'">		
+			<PropertyGroup>
+				<ValidationMessageText3>$(MSBuildProjectName) -&gt; The current project parameters match the original project parameters</ValidationMessageText3>
+			</PropertyGroup>
+		</When>
+		<Otherwise>
+			<PropertyGroup>
+				<ValidationMessageText3>$(MSBuildProjectName) -&gt; The current project parameters don't match the original project parameters</ValidationMessageText3>
+			</PropertyGroup>
+		</Otherwise>
+	</Choose>
+
+	<Target Name="ValidationMessage" AfterTargets="Build">
+		<Message Text="$(ValidationMessageText1)" Importance="High"/>
+		<Message Text="$(ValidationMessageText2)" Importance="High"/>
+		<Message Text="$(ValidationMessageText3)" Importance="High"/>
+	</Target>
+
+</Project>
